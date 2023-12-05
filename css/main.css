@@ -91,3 +91,16 @@ body{
 #qr-code img{
     width: 200px;
 }
+
+@media screen and (max-width: 767px) {
+
+    .container{
+        width: 350px;
+        height: 250px;
+    }
+
+    #qr-code img{
+        width: 180px;
+    }
+    
+}
